@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="93331" started-at="2020-10-22T00:15:42 IST" finished-at="2020-10-22T00:17:15 IST">
+  <suite name="Default suite" duration-ms="75081" started-at="2020-10-27T18:33:05 IST" finished-at="2020-10-27T18:34:20 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="93331" started-at="2020-10-22T00:15:42 IST" finished-at="2020-10-22T00:17:15 IST">
+    <test name="Default test" duration-ms="75081" started-at="2020-10-27T18:33:05 IST" finished-at="2020-10-27T18:34:20 IST">
       <class name="scripts.Login_Logout_test">
-        <test-method status="PASS" signature="OpenAppln()[pri:0, instance:scripts.Login_Logout_test@53f65459]" name="OpenAppln" is-config="true" duration-ms="68526" started-at="2020-10-22T00:15:42 IST" finished-at="2020-10-22T00:16:50 IST">
+        <test-method status="PASS" signature="OpenAppln()[pri:0, instance:scripts.Login_Logout_test@53f65459]" name="OpenAppln" is-config="true" duration-ms="55829" started-at="2020-10-27T18:33:05 IST" finished-at="2020-10-27T18:34:00 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- OpenAppln -->
-        <test-method status="FAIL" signature="login_logout_test()[pri:0, instance:scripts.Login_Logout_test@53f65459]" name="login_logout_test" duration-ms="17270" started-at="2020-10-22T00:16:50 IST" finished-at="2020-10-22T00:17:08 IST">
+        <test-method status="FAIL" signature="login_logout_test()[pri:0, instance:scripts.Login_Logout_test@53f65459]" name="login_logout_test" duration-ms="15903" started-at="2020-10-27T18:34:00 IST" finished-at="2020-10-27T18:34:16 IST">
           <exception class="org.openqa.selenium.json.JsonException">
             <message>
               <![CDATA[java.lang.reflect.InvocationTargetException
@@ -95,8 +95,8 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'DESKTOP-L1EA06Q', ip: '192.168.0.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 81.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20201012085804, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 900, moz:profile: C:\Users\Samsung\AppData\Lo..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: ee738652-be2a-4ead-8b95-8be2f50367f3
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 81.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20201012085804, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 10388, moz:profile: C:\Users\Samsung\AppData\Lo..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: d96cc272-9bb4-45d0-a04a-7c0f04a17a1b
 *** Element info: {Using=xpath, value=//img[@src='themes/softed/images/user.PNG']}
 at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
@@ -126,7 +126,7 @@ at org.openqa.selenium.interactions.Sequence.toJson(Sequence.java:84)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login_logout_test -->
-        <test-method status="PASS" signature="closeAppln(org.testng.ITestResult)[pri:0, instance:scripts.Login_Logout_test@53f65459]" name="closeAppln" is-config="true" duration-ms="7203" started-at="2020-10-22T00:17:08 IST" finished-at="2020-10-22T00:17:15 IST">
+        <test-method status="PASS" signature="closeAppln(org.testng.ITestResult)[pri:0, instance:scripts.Login_Logout_test@53f65459]" name="closeAppln" is-config="true" duration-ms="3251" started-at="2020-10-27T18:34:16 IST" finished-at="2020-10-27T18:34:20 IST">
           <params>
             <param index="0">
               <value>
