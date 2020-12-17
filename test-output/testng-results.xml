@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="21662" started-at="2020-12-16T23:06:44 IST" finished-at="2020-12-16T23:07:06 IST">
+  <suite name="Default suite" duration-ms="63822" started-at="2020-12-17T22:27:47 IST" finished-at="2020-12-17T22:28:51 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="21662" started-at="2020-12-16T23:06:44 IST" finished-at="2020-12-16T23:07:06 IST">
+    <test name="Default test" duration-ms="63822" started-at="2020-12-17T22:27:47 IST" finished-at="2020-12-17T22:28:51 IST">
       <class name="scripts.Login_Logout_test">
-        <test-method status="PASS" signature="OpenAppln()[pri:0, instance:scripts.Login_Logout_test@53f65459]" name="OpenAppln" is-config="true" duration-ms="9453" started-at="2020-12-16T23:06:44 IST" finished-at="2020-12-16T23:06:53 IST">
+        <test-method status="PASS" signature="OpenAppln()[pri:0, instance:scripts.Login_Logout_test@53f65459]" name="OpenAppln" is-config="true" duration-ms="40352" started-at="2020-12-17T22:27:47 IST" finished-at="2020-12-17T22:28:27 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- OpenAppln -->
-        <test-method status="PASS" signature="login_logout_test()[pri:0, instance:scripts.Login_Logout_test@53f65459]" name="login_logout_test" duration-ms="10026" started-at="2020-12-16T23:06:53 IST" finished-at="2020-12-16T23:07:04 IST">
+        <test-method status="PASS" signature="login_logout_test()[pri:0, instance:scripts.Login_Logout_test@53f65459]" name="login_logout_test" duration-ms="20433" started-at="2020-12-17T22:28:27 IST" finished-at="2020-12-17T22:28:48 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login_logout_test -->
-        <test-method status="PASS" signature="closeAppln(org.testng.ITestResult)[pri:0, instance:scripts.Login_Logout_test@53f65459]" name="closeAppln" is-config="true" duration-ms="2120" started-at="2020-12-16T23:07:04 IST" finished-at="2020-12-16T23:07:06 IST">
+        <test-method status="PASS" signature="closeAppln(org.testng.ITestResult)[pri:0, instance:scripts.Login_Logout_test@53f65459]" name="closeAppln" is-config="true" duration-ms="2889" started-at="2020-12-17T22:28:48 IST" finished-at="2020-12-17T22:28:51 IST">
           <params>
             <param index="0">
               <value>
