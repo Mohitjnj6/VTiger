@@ -26,8 +26,8 @@ public class Login_Logout_test extends Base_test{
 		Vtiger_LogoutPage hp=new Vtiger_LogoutPage(driver);
 		
 		hp.logout(driver);
-		
-		
+		 
+		 
 	}
 
 }
