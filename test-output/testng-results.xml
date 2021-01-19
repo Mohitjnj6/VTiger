@@ -2,12 +2,12 @@
 <testng-results skipped="1" failed="0" ignored="0" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="34603" started-at="2021-01-19T22:23:42 IST" finished-at="2021-01-19T22:24:16 IST">
+  <suite name="Default suite" duration-ms="18660" started-at="2021-01-19T23:59:25 IST" finished-at="2021-01-19T23:59:44 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="34603" started-at="2021-01-19T22:23:42 IST" finished-at="2021-01-19T22:24:16 IST">
+    <test name="Default test" duration-ms="18660" started-at="2021-01-19T23:59:25 IST" finished-at="2021-01-19T23:59:44 IST">
       <class name="scripts.Login_Logout_test">
-        <test-method status="FAIL" signature="OpenAppln()[pri:0, instance:scripts.Login_Logout_test@53f65459]" name="OpenAppln" is-config="true" duration-ms="33432" started-at="2021-01-19T22:23:42 IST" finished-at="2021-01-19T22:24:15 IST">
+        <test-method status="FAIL" signature="OpenAppln()[pri:0, instance:scripts.Login_Logout_test@53f65459]" name="OpenAppln" is-config="true" duration-ms="18572" started-at="2021-01-19T23:59:25 IST" finished-at="2021-01-19T23:59:44 IST">
           <exception class="java.io.FileNotFoundException">
             <message>
               <![CDATA[.\src\main\java\generic\p.properties (The system cannot find the path specified)]]>
@@ -58,7 +58,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- OpenAppln -->
-        <test-method status="SKIP" signature="login_logout_test()[pri:0, instance:scripts.Login_Logout_test@53f65459]" name="login_logout_test" duration-ms="0" started-at="2021-01-19T22:24:16 IST" finished-at="2021-01-19T22:24:16 IST">
+        <test-method status="SKIP" signature="login_logout_test()[pri:0, instance:scripts.Login_Logout_test@53f65459]" name="login_logout_test" duration-ms="0" started-at="2021-01-19T23:59:44 IST" finished-at="2021-01-19T23:59:44 IST">
           <exception class="java.io.FileNotFoundException">
             <message>
               <![CDATA[.\src\main\java\generic\p.properties (The system cannot find the path specified)]]>
@@ -109,7 +109,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login_logout_test -->
-        <test-method status="SKIP" signature="closeAppln(org.testng.ITestResult)[pri:0, instance:scripts.Login_Logout_test@53f65459]" name="closeAppln" is-config="true" duration-ms="-1611075256500" started-at="2021-01-19T22:24:16 IST" finished-at="1970-01-01T05:30:00 IST">
+        <test-method status="SKIP" signature="closeAppln(org.testng.ITestResult)[pri:0, instance:scripts.Login_Logout_test@53f65459]" name="closeAppln" is-config="true" duration-ms="-1611080984231" started-at="2021-01-19T23:59:44 IST" finished-at="1970-01-01T05:30:00 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeAppln -->
