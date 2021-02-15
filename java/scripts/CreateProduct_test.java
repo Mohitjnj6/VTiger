@@ -16,8 +16,8 @@ public class CreateProduct_test  extends Base_test{
 	{
 		Vtiger_LoginPage lp=new Vtiger_LoginPage(driver);
 		
-		String username = Generic_Property_Data.test1("./src/main/java/generic/p.properties", "username");
-		String password = Generic_Property_Data.test1("./src/main/java/generic/p.properties", "password");
+		String username = Generic_Property_Data.test1("./java/generic/p.properties", "username");
+		String password = Generic_Property_Data.test1("./java/generic/p.properties", "password");
 		
 		lp.login(username,password);
 		

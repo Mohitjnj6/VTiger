@@ -28,7 +28,7 @@ public  class Base_test implements Auto_const{
 		
 		driver=new FirefoxDriver();
 		
-		String url = Generic_Property_Data.test1("./src/main/java/generic/p.properties", "url");
+		String url = Generic_Property_Data.test1("./java/generic/p.properties", "url");
 		driver.get(url);
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS);
