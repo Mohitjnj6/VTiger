@@ -2,32 +2,32 @@
 <testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="33560" started-at="2021-02-18T18:17:59 IST" finished-at="2021-02-18T18:18:33 IST">
+  <suite name="Default suite" duration-ms="38860" started-at="2021-02-18T18:19:27 IST" finished-at="2021-02-18T18:20:06 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="33560" started-at="2021-02-18T18:17:59 IST" finished-at="2021-02-18T18:18:33 IST">
+    <test name="Default test" duration-ms="38860" started-at="2021-02-18T18:19:27 IST" finished-at="2021-02-18T18:20:06 IST">
       <class name="scripts.Login_Logout_test">
-        <test-method status="PASS" signature="OpenAppln()[pri:0, instance:scripts.Login_Logout_test@3b088d51]" name="OpenAppln" is-config="true" duration-ms="13776" started-at="2021-02-18T18:17:59 IST" finished-at="2021-02-18T18:18:13 IST">
+        <test-method status="PASS" signature="OpenAppln()[pri:0, instance:scripts.Login_Logout_test@3b088d51]" name="OpenAppln" is-config="true" duration-ms="26382" started-at="2021-02-18T18:19:27 IST" finished-at="2021-02-18T18:19:54 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- OpenAppln -->
-        <test-method status="FAIL" signature="login_logout_test()[pri:0, instance:scripts.Login_Logout_test@3b088d51]" name="login_logout_test" duration-ms="9608" started-at="2021-02-18T18:18:13 IST" finished-at="2021-02-18T18:18:23 IST">
+        <test-method status="FAIL" signature="login_logout_test()[pri:0, instance:scripts.Login_Logout_test@3b088d51]" name="login_logout_test" duration-ms="9284" started-at="2021-02-18T18:19:54 IST" finished-at="2021-02-18T18:20:03 IST">
           <exception class="org.openqa.selenium.ElementNotInteractableException">
             <message>
               <![CDATA[Element <a class="drop_down_usersettings" href="index.php?module=Users&action=Logout"> could not be scrolled into view
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'DESKTOP-L1EA06Q', ip: '192.168.0.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 84.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20201221152838, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 11468, moz:profile: C:\Users\Samsung\AppData\Lo..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 015e8a25-dec0-43fa-a670-4155a4301f68]]>
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 84.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20201221152838, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 8656, moz:profile: C:\Users\Samsung\AppData\Lo..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 88a21aea-5f44-4870-9395-2dba9b325a1b]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.ElementNotInteractableException: Element <a class="drop_down_usersettings" href="index.php?module=Users&action=Logout"> could not be scrolled into view
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'DESKTOP-L1EA06Q', ip: '192.168.0.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 84.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20201221152838, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 11468, moz:profile: C:\Users\Samsung\AppData\Lo..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 015e8a25-dec0-43fa-a670-4155a4301f68
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 84.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20201221152838, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 8656, moz:profile: C:\Users\Samsung\AppData\Lo..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 88a21aea-5f44-4870-9395-2dba9b325a1b
 at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
 at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
@@ -82,7 +82,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login_logout_test -->
-        <test-method status="PASS" signature="closeAppln(org.testng.ITestResult)[pri:0, instance:scripts.Login_Logout_test@3b088d51]" name="closeAppln" is-config="true" duration-ms="10067" started-at="2021-02-18T18:18:23 IST" finished-at="2021-02-18T18:18:33 IST">
+        <test-method status="PASS" signature="closeAppln(org.testng.ITestResult)[pri:0, instance:scripts.Login_Logout_test@3b088d51]" name="closeAppln" is-config="true" duration-ms="3122" started-at="2021-02-18T18:20:03 IST" finished-at="2021-02-18T18:20:06 IST">
           <params>
             <param index="0">
               <value>
